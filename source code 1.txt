@@ -1,0 +1,1191 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  
+  
+  
+  
+  
+  
+  
+  <!-- <link rel="stylesheet" href="css/style.css"> -->
+  <title>Anyway.in</title>
+  <!-- <link rel="stylesheet" href="style.css" /> -->
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+  
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+  
+    body {
+      background-color: rgba(187, 214, 195, 0.978);
+    }
+  
+    .container-fluid img {
+      height: 6%;
+      width: 6%;
+    }
+  
+    .logo-image {
+      width: 46px;
+      height: 46px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin-top: -6px;
+    }
+  
+  
+    .contains {
+      position: relative;
+      text-align: center;
+      color: black;
+    }
+  
+  
+    .top-left {
+      position: absolute;
+      top: 100px;
+      left: 200px;
+    }
+  
+    .img-a {
+      text-align: center;
+    }
+  
+  
+  
+    .img-ab {
+  
+      display: block;
+      height: 120px;
+      float: left;
+      width: 25%;
+    }
+  
+    .firstimgtext {
+      display: block;
+      height: 200px;
+      float: left;
+      width: 25%;
+  
+      padding-left: 120px;
+    }
+  
+    .makeitcenter {
+      text-align: center;
+    }
+  
+    .primary {
+  
+      margin: 40px;
+    }
+  
+    .card-group {
+      padding: 3px;
+      margin: 40px 40px;
+  
+  
+    }
+  
+    .card-text41 {
+      font-size: 40px;
+      font-weight: 600px;
+      color: red;
+    }
+  
+    .card-text11 {
+      font-size: 40px;
+      font-weight: 600px;
+      color: rgba(227, 69, 232, 0.732)
+    }
+  
+    .card-text31 {
+      font-size: 40px;
+      font-weight: 600px;
+      color: rgb(49, 128, 0);
+    }
+  
+    .card-text21 {
+      font-size: 40px;
+      font-weight: 600px;
+      color: rgb(127, 221, 210);
+    }
+  
+    .card-body1 {
+      background-color: rgb(212, 139, 157);
+      ;
+    }
+  
+    .card-body2 {
+      background-color: rgb(169, 138, 143);
+    }
+  
+    .card-body3 {
+      background-color: grey;
+    }
+  
+    .card-body4 {
+      background-color: lightblue;
+    }
+  
+    .btnbtn-primary4 {
+      /* color:red; */
+      background-color: rgb(160, 69, 87);
+      border-radius: 30px;
+    }
+  
+    .btnbtn-primary3 {
+      /* color:red; */
+      background-color: rgb(39, 65, 93);
+      border-radius: 30px;
+    }
+  
+    .btnbtn-primary2 {
+      /* color:red; */
+      background-color: rgb(52, 95, 106);
+      border-radius: 30px;
+    }
+  
+    .btnbtn-primary1 {
+      /* color:red; */
+      background-color: rgb(230, 122, 13);
+      border-radius: 30px;
+    }
+  
+    .d-flex {
+      align-items: center;
+      text-align: center;
+      padding: 8rem;
+  
+      width: 90%;
+      display: flex;
+    }
+  
+    .flex-fill {
+      margin-right: 3rem;
+    }
+  
+    #give {
+      width: 250px;
+    }
+  
+    .mekit {
+      font-size: 25px;
+    }
+  
+    .ourstory {
+      text-align: center;
+      padding: 7px;
+    }
+  
+    .whatpeple {
+      text-align: center;
+    }
+  
+    .imagenew img {
+      width: 90%;
+      align-self: center;
+  
+      padding: 4px 2px;
+  
+  
+    }
+  
+    .imagenew {
+      position: relative;
+      text-align: center;
+      color: black;
+    }
+  
+    /* Bottom left text */
+    .bottom-left {
+      position: absolute;
+      top: 40%;
+      font-size: 35px;
+      left: 16px;
+      color: black;
+      /* padding: 55px; */
+      margin-left: 100px;
+    }
+  
+    .bottom-leftup {
+      position: absolute;
+      top: 280px;
+      font-size: 20px;
+      left: 16px;
+      color: black;
+      /* padding: 55px; */
+      margin-left: 100px;
+    }
+  
+    .somany {
+      position: absolute;
+      top: 320px;
+  
+      left: 16px;
+      color: black;
+      /* padding: 55px; */
+      margin-left: 200px;
+    }
+  
+    .footer {
+      background-color: black;
+      margin-top: 40px;
+      display: flex;
+      height: 400px;
+  
+    }
+  
+    .card-bodyfoot {
+      background-color: black;
+    }
+  
+  
+  
+    .col_white_amrc {
+      color: rgb(18, 15, 15);
+    }
+  
+    footer {
+      width: 100%;
+      background-color: #0a0c0e;
+      min-height: 250px;
+      padding: 10px 0px 25px 0px;
+    }
+  
+    .pt2 {
+      padding-top: 40px;
+      margin-bottom: 20px;
+    }
+  
+    footer p {
+      font-size: 13px;
+      color: #120e0e;
+      padding-bottom: 0px;
+      margin-bottom: 8px;
+    }
+  
+    .mb10 {
+      padding-bottom: 15px;
+    }
+  
+    .footer_ul_amrc {
+      margin: 0px;
+      list-style-type: none;
+      font-size: 14px;
+      padding: 0px 0px 10px 0px;
+    }
+  
+    .footer_ul_amrc li {
+      padding: 0px 0px 5px 0px;
+    }
+  
+    .footer_ul_amrc li a {
+      color: rgb(219, 78, 78);
+    }
+  
+    .footer_ul_amrc li a:hover {
+      color: rgb(164, 135, 135);
+      text-decoration: none;
+    }
+  
+    .fleft {
+      float: left;
+    }
+  
+    .padding-right {
+      padding-right: 10px;
+    }
+  
+    .footer_ul2_amrc {
+      margin: 0px;
+      list-style-type: none;
+      padding: 0px;
+    }
+  
+    .footer_ul2_amrc li p {
+      display: table;
+    }
+  
+    .footer_ul2_amrc li a:hover {
+      text-decoration: none;
+    }
+  
+    .footer_ul2_amrc li i {
+      margin-top: 5px;
+    }
+  
+    .bottom_border {
+      border-bottom: 1px solid #323f45;
+      padding-bottom: 20px;
+    }
+  
+    .foote_bottom_ul_amrc {
+      list-style-type: none;
+      padding: 0px;
+      display: table;
+      margin-top: 10px;
+      margin-right: auto;
+      margin-bottom: 10px;
+      margin-left: auto;
+    }
+  
+    .foote_bottom_ul_amrc li {
+      display: inline;
+    }
+  
+    .foote_bottom_ul_amrc li a {
+      color: #999;
+      margin: 0 12px;
+    }
+  
+    .social_footer_ul {
+      display: table;
+      margin: 15px auto 0 auto;
+      list-style-type: none;
+    }
+  
+    .social_footer_ul li {
+      padding-left: 20px;
+      padding-top: 10px;
+      float: left;
+    }
+  
+    .social_footer_ul li a {
+      color: #CCC;
+      border: 1px solid #CCC;
+      padding: 8px;
+      border-radius: 50%;
+    }
+  
+    .social_footer_ul li i {
+      width: 20px;
+      height: 20px;
+      text-align: center;
+    }
+  
+  
+    .colitemsocial {
+      background-color: red;
+      height: 100px;
+  
+    }
+  
+    .containers {
+      color: white;
+      list-style: none;
+      text-decoration: none;
+  
+  
+    }
+  
+    .footer-dark {
+      color: white;
+      text-decoration: none;
+      list-style: none;
+      width: 90%;
+      margin: 4rem;
+      margin-top: 2vh;
+    }
+  
+    .footer-dark a {
+      color: white;
+      list-style: none;
+      text-decoration: none;
+  
+    }
+  
+    .footer-dark ul li {
+      list-style: none;
+      margin-top: 2vh;
+  
+    }
+  
+    .footer-dark img {
+      width: 30px;
+      height: 30px;
+      margin-left: 30px;
+      float: left;
+  
+      /* background-color:white; */
+  
+    }
+  
+    .footer-dark h5 {
+      margin-left: 30px;
+    }
+  
+    .putit {
+      height: 20rem;
+      background: linear-gradient(rgba(52, 240, 243, 0.89), rgb(255, 255, 255), rgba(249, 249, 115, 0.918), rgb(134, 237, 134));
+  
+      margin-top: 0vw;
+  
+    }
+  
+  
+    .putit img {
+      display: block;
+      float: right;
+      width: 50%;
+    }
+  
+    .write {
+      padding-top: 10vh;
+      padding-left: 8%;
+      font-size: 2rem;
+      top: 500px;
+      /* float:left; */
+  
+    }
+  
+    .write2 {
+      padding-top: 3vh;
+      padding-left: 9%;
+      font-size: 1rem;
+      top: 501px;
+  
+      /* float:left; */
+  
+    }
+  
+    .write3 {
+      padding-top: 3vh;
+      padding-left: 12%;
+      font-size: 1rem;
+      top: 501px;
+  
+      /* float:left; */
+  
+    }
+  
+    .blogpost {
+      display: flex;
+  
+      padding: 1rem;
+    }
+  
+    .blogpost>div {
+  
+  
+      box-sizing: border-box;
+      padding: 2px;
+      font-size: 1rem;
+    }
+  
+     .blogpost img {
+      height: auto;
+      width: 16rem;
+    } 
+  
+    .coninre {
+  
+      display: flex;
+      align-items: center;
+  
+  
+  
+    }
+  
+    .alert img {
+      height: 3rem;
+      width: 3rem;
+    }
+  
+    .itisone {
+      padding-left: 3rem;
+      padding-top: 0;
+    }
+  
+    .mystand {
+      text-align: center;
+      font-weight: .4rem;
+    }
+  
+    #hoverit:hover {
+      color: red;
+  
+    }
+  
+    .btn:hover {
+      color: white;
+      background-color: black;
+    }
+  
+    #yuio {
+      background-color: #999;
+    }
+  
+    .form {
+      width: 50%;
+      height: 60%;
+      display: block;
+  
+    }
+  </style>
+  </head>
+  
+  <body>
+  
+  
+  
+  
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" style="color:white" href="#">Resources & Downloads</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" style="color:white" href="#"><b> Start a Business </b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color:white" href="#"><b> About Amway</b></a>
+              </li>
+              Lorem ipsum dolor sit amet. Lorem, ipsum
+              <li class="nav-item">
+                <a class="nav-link" style="color:white" href="#"><b>Select delivery address</b> </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" style="color:white" href="#" id="navbarDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  <b> english</b>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">english</a></li>
+  
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" style="color:white" id="navbarDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  <b>help center</b>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">about us</a></li>
+                  <li><a class="dropdown-item" href="#">write about us</a></li>
+  
+  
+                </ul>
+              </li>
+  
+  
+              <li class="nav-item " style="color:white;float:right">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" style="color:white;" aria-expanded="false">
+                  login
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="width:50%;float:left;">
+  
+                  <li>
+                    <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+                      <div class="form-group">
+                        <label class="sr-only" for="exampleInputEmail2">mobile no</label>
+                        <input type="email" class="form-control" id="exampleInputEmail2" placeholder="moblie no" required>
+                      </div>
+                      <div class="form-group">
+                        <label class="sr-only" for="exampleInputPassword2">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password"
+                          required>
+                        <div class="help-block text-right" id="hoverit"><a href="">Forget the password ?</a></div>
+                      </div>
+                      <div class="form-group">
+                        <button type="submit" class="btn btn-primary btn-block">Sign in</button>
+                      </div>
+  
+                    </form>
+  
+                    <div class="imggoogle" style="display:flex">
+                      <p><b>sign in with</b> </p>
+  
+  
+                      <img src="https://blog.hubspot.com/hubfs/image8-2.jpg" style="height:6%;width:6%" alt="">
+                      <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/600px-Facebook_f_logo_%282019%29.svg.png?20200820101156"
+                        alt="" style="height:3%;width:3%;">
+                    </div>
+  
+                    <div class="register" style="width:30%">
+                      <h2>register</h2>
+  
+                      <div class="d-grid gap d-md-block">
+                        <button class="btn btn-primary" id="yuio"
+                          style="width:23rem;padding:1rem;background-color:white;color:black" type="button">preferred
+                          costomer</button>
+                      </div>
+                      <br>
+                      <div>
+                        <button class="btn btn-primary"
+                          style="width:23rem;padding:1rem;background-color:white;color:black" type="button">amway direct
+                          selling partner</button>
+                      </div>
+                      <div class="trrack">
+                        <a href=""><b>track your order as guest costomer</b> </a>
+                      </div>
+                    </div>
+  
+                </ul>
+              </li>
+  
+  
+  
+  
+            </ul>
+            <form class="d-flexw">
+  
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+  
+  
+  
+  
+  
+  
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-dark shadow">
+        <div class="container-fluid">
+          <img
+            src="https://images.contentstack.io/v3/assets/blt7fba682eccffca60/blt7b3928c419c237f1/622859f8225c6a0d139d91c1/Black.svg"
+            alt="">
+          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbar-content">
+            <div class="hamburger-toggle">
+              <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-content">
+            <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+  
+              <li class="nav-item dropdown dropdown-mega position-static">
+                <a class="nav-link dropdown-toggle" href="#" style="color:black" data-bs-toggle="dropdown"
+                  data-bs-auto-close="outside">PRODUCTS</a>
+                <div class="dropdown-menu shadow">
+                  <div class="mega-content px-4">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-12 col-sm-4 col-md-3 py-4">
+                          <h5>Nutrition </h5>
+                          <div class="list-group">
+                            <a class="list-group-item" href="#"> Protein</a>
+                            <a class="list-group-item" href="#"> Vitamin & Minerals</a>
+                            <a class="list-group-item" href="#"> Omega 3 & Calcium</a>
+                            <a class="list-group-item" href="#"> Other Supplements</a>
+                            <a class="list-group-item" href="#"> Nutrilite Traditional Herbs Range
+                            </a>
+                            <a class="list-group-item" href="#">Weight Management</a>
+                            <a class="list-group-item" href="#">Nutrilite & ITC Co-created</a>
+                            <a class="list-group-item" href="#"><b>All Nutrition Products</b> </a>
+  
+  
+  
+                          </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-5 py-4">
+                          <div class="col-12 col-sm-4 col-md-6 py-4">
+                            <h5>Beauty
+  
+  
+  
+  
+                            </h5>
+                            <div class="list-group">
+                              <a class="list-group-item" href="#"> Skin Care</a>
+                              <a class="list-group-item" href="#"> Makeup</a>
+                              <a class="list-group-item" href="#"> Artistry Skincare Recommender</a>
+                              <a class="list-group-item" href="#"> Artistry Beauty App</a>
+                              <a class="list-group-item" href="#"> All Beauty Products
+                              </a>
+  
+  
+  
+  
+                            </div>
+  
+                          </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-3 py-4">
+                          <div class="col-12 col-sm-4 col-md-7 py-4">
+                            <h5>Home & Living
+  
+  
+  
+                            </h5>
+                            <div class="list-group">
+                              <a class="list-group-item" href="#"> Home Care</a>
+                              <a class="list-group-item" href="#"> Air Treatment</a>
+                              <a class="list-group-item" href="#"> Kitchen Essential<a>
+                                  <a class="list-group-item" href="#"> All Home & Living Products</a>
+  
+  
+  
+  
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-8 py-4">
+  
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+              </li>
+              <li class="nav-item dropdown dropdown-mega position-static">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" style="color:black"
+                  data-bs-auto-close="outside">BRANDS</a>
+                <div class="dropdown-menu shadow">
+                  <div class="mega-content px-4">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-8 col-sm-4 col-md-6 py-4">
+  
+                          <div class="list-group">
+                            <a class="list-group-item" href="#">Nutrilite</a>
+                            <a class="list-group-item" href="#">Mn* by Nutrilite</a>
+                            <a class="list-group-item" href="#"> XS</a>
+                            <a class="list-group-item" href="#"> Amway Queen</a>
+  
+                            <a class="list-group-item" href="#"> Amway Atmosphere<< /a>
+  
+                          </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-6 py-4">
+                          <div class="col-12 col-sm-4 col-md-7 py-4">
+  
+                            <div class="list-group">
+                              <a class="list-group-item" href="#"> Artistry</a>
+                              <a class="list-group-item" href="#"> Glister</a>
+                              <a class="list-group-item" href="#"> Amway Home<a>
+  
+                            </div>
+                          </div>
+                        </div>
+  
+  
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color:black" href="#">PROMOTIONS</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" style="color:black" aria-expanded="false">
+                  GOALS
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Immunity
+  
+  
+                    </a></li>
+                  <li><a class="dropdown-item" href="#"> Hair & Scalp Care</a></li>
+                  <li><a class="dropdown-item" href="#"> Vitality/Energy</a></li>
+                  <li><a class="dropdown-item" href="#"> Weight Management</a></li>
+  
+                </ul>
+              </li>
+  
+            </ul>
+            <form class="d-flex1 ms-auto">
+              <div class="input-group">
+                <input class="form-control border-0 mr-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-primary border-0" type="submit">Search</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+  
+  
+  
+  
+  
+    <div class="container">
+      <div class="alert alert-warning alert-dismissible fade show" id="hur" role="alert">
+        <img src="https://dataconnect.co.uk/wp-content/uploads/2021/07/vSOC-Alert-Image-01-768x768.png" alt="">
+        <strong>Update Pincode
+          Your address is set to default. </strong>
+  
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+    </div>
+  
+    <div class="container">
+      <div class="putit">
+        <img
+          src="https://images.contentstack.io/v3/assets/blt7fba682eccffca60/blta0d59c27b17dd13a/62a2eba3e3bbf658a27e0f5f/Front_Image_Desktop.png?width=1920&auto=webp"
+          alt="">
+  
+        <div class="write">
+          <strong>Empowering women, Encouraging youth</strong>
+  
+        </div>
+        <div class="write2">
+          <p> To pursue their passions for a healthier tomorrow.</p>
+        </div>
+        <div class="write3">
+          <button type="button" class="btn btn-dark">explore now</button>
+        </div>
+      </div>
+    </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <div class="container">
+  
+      <div class="mystand">
+        <h1>Discover Our Products</h1>
+      </div>
+  
+  
+      <div class="img-ab">
+        <img
+          src="https://images.contentstack.io/v3/assets/blt7fba682eccffca60/bltc9a982e2f5addb7c/6204e3ca214fe9266428cfa2/Nutrition.png?width=200&auto=webp"
+          alt="" />
+      </div>
+  
+      <div class="img-ab">
+        <img
+          src="https://images.contentstack.io/v3/assets/blt7fba682eccffca60/blt4a0549cebcd4c41c/6204e3c911f7a2140e9f1949/Beauty.png?width=200&auto=webp"
+          alt="" />
+      </div>
+      <div class="img-ab">
+        <img
+          src="https://images.contentstack.io/v3/assets/blt7fba682eccffca60/blt42c24a1e792825ef/6204e3c95c8d1c13fce370ce/Home_and_living.png?width=200&auto=webp"
+          alt="" />
+      </div>
+      <div class="img-ab">
+        <img
+          src="https://images.contentstack.io/v3/assets/blt7fba682eccffca60/blta29a5bdc09100751/6204e3ca76c7544993fa3e2d/Personal_Care.png?width=200&auto=webp"
+          alt="" />
+      </div>
+    </div>
+  
+    </div>
+    <div class="container">
+  
+  
+      <div class="imagetext">
+        <div class="firstimgtext"><strong>nutrition &#8594;</strong></div>
+        <div class="firstimgtext"><strong>beauty &rarr;</strong></div>
+        <div class="firstimgtext"><strong>home and living &#8594;</strong></div>
+        <div class="firstimgtext"><strong>personal care &#x2192;</strong></div>
+      </div>
+    </div>
+  
+  
+  
+  
+    <div class="container">
+      <div class="makeitcenter">
+        <h1>Products For You</h1>
+      </div>
+      <div class="card-group">
+        <div class="card">
+          <img src="https://media.amway.in/sys-master/images/hc4/h9b/9097888923678/EIA.w375.h375.123328ID_1.jpg"
+            class="card-img-top" alt="..." />
+          <div class="card-body">
+  
+            <p class="card-text1">
+              Atmosphere Mini™
+              <b>oAir Purifier + 1 replacement filter</b>
+              1 N
+            <p> ₹ 49,998.96 </p>
+            (incl. of all taxes)
+            </p>
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <button class="btn btn-primary" type="button">ADD TO CART</button>
+            </div>
+            <p class="card-text1">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://media.amway.in/sys-master/images/h2c/hd0/9097258696734/EIA.w375.h375.120524ID_1.jpg"
+            class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text1">
+              ARTISTRY™
+            <p><b>Intense Skincare Advanced Vitamin C + HA</b></p>
+            <p>12 ml ₹ 5,246.28</p>
+  
+  
+            </p>
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <button class="btn btn-primary" type="button">ADD TO CART</button>
+            </div>
+            <p class="card-text1">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://media.amway.in/sys-master/images/hdc/hed/9098300981278/EIA.w375.h375.308516ID_1.jpg"
+            class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text1">
+              XS
+            <p><b> Whey Protein Powder Formula 2 Chocolate</b></p>
+            1 kg
+  
+            ₹ 4,467.48
+            (incl. of all taxes)
+            </p>
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <button class="btn btn-primary" type="button">ADD TO CART</button>
+            </div>
+            <p class="card-text1">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://media.amway.in/sys-master/images/hde/h7d/9102943879198/EIA.w375.h375.300864ID_1.jpg"
+            class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text1">
+              n by Nutrilite™
+              <b> Love Your Bones Calcium, Vitamin D and Vitamin K2 Gummy</b>
+            </p>
+            60 UNITS (Gummies)
+  
+            ₹ 587.64
+            (incl. of all taxes)
+            </p>
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <button class="btn btn-primary" type="button">ADD TO CART</button>
+            </div>
+            <p class="card-text1">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  
+  
+  
+  
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://images.contentstack.io/v3/assets/blt7fba682eccffca60/blta051846067386131/6218c6ccc4c1b167484d1f38/Immunity-with-lifestyle-1000x680.jpg?width=900&auto=webp"
+              class="card-img-top" alt="...">
+            <div class="card-body1">
+              <!-- <h5 class="card-title">Card title</h5> -->
+              <p class="card-text11"><b>Support your immunity daily with our Nutrilite ingredients</b></p>
+              <div class="d-grid gap-2 col-6 mx-auto">
+                <button class="btnbtn-primary1" type="button">explore</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://images.contentstack.io/v3/assets/blt7fba682eccffca60/blt3326e32e14a1e258/6218c78cc4c1b167484d1f3c/Satnique_1000x680px-300.jpg?width=900&auto=webp"
+              class="card-img-top" alt="...">
+            <div class="card-body2">
+              <!-- <h5 class="card-title">Card title</h5> -->
+              <p class="card-text21"><b>Nutrition your hair needs. Quality haircare you demand</b></p>
+              <div class="d-grid gap-2 col-6 mx-auto">
+                <button class="btnbtn-primary2" type="button">explore</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://images.contentstack.io/v3/assets/blt7fba682eccffca60/blt5e4e22ab04405f7b/6218c6cc6f0333490a0e65de/Vitality-&-Energy-with-lifestyle-1000x680.jpg?width=900&auto=webp"
+              class="card-img-top" alt="...">
+            <div class="card-body3">
+              <!-- <h5 class="card-title">Card title</h5> -->
+              <p class="card-text31"><b>Healthy ways to support your energy</b></p>
+              <div class="d-grid gap-2 col-6 mx-auto">
+                <button class="btnbtn-primary3" type="button">explore</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://images.contentstack.io/v3/assets/blt7fba682eccffca60/bltbae6ed9b869a0a51/6218c6ccd83ad851e8a9ca21/Bodykey_branding_1000x680_2.jpg?width=900&auto=webp"
+              class="card-img-top" alt="...">
+            <div class="card-body4">
+              <!-- <h5 class="card-title">Card title</h5> -->
+              <p class="card-text41"><b>A better meal replacement for a better you</b></p>
+              <div class="d-grid gap-2 col-6 mx-auto">
+                <button class="btnbtn-primary4" type="button">explore</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  
+  
+    <div class="container">
+      <div class="ourstory">
+        <h1>Our Story</h1>
+      </div>
+  
+      <div class="d-flex">
+        <div class="p-2 flex-fill" id="give"><img
+            src="https://images.contentstack.io/v3/assets/blt7fba682eccffca60/bltde9aa75469eb52ba/611dee8c25695f14a34d8ded/our-milestones-India.png"
+            alt="">
+          <p><b class="mekit"> 20+ Years</b>
+          </p>Empowering peopleto live better, healthier lives with our flagship brands Nutrilite & Artistry</p>
+        </div>
+        <div class="p-2 flex-fill" id="give"><img
+            src="https://images.contentstack.io/v3/assets/blt7fba682eccffca60/blte41238acc2650d97/624d81b34edd947eefb3cb95/Amway-Icons-India_1.png"
+            alt="">
+          <p><b class="mekit"> Unleashing Entrepreneurship</b></p>
+          <p>
+            Proud to have more than 5.50 lakh passionate distributors including > 60% women</p>
+        </div>
+        <div class="p-2 flex-fill" id="give"><img
+            src="https://images.contentstack.io/v3/assets/blt7fba682eccffca60/blt2a74e7500a1c24be/624d81b37d552701c63667c1/Amway-Icons-Bar-Graph_1.png"
+            alt="">
+          <p><b class="mekit">Making In India </b></p>
+          <p> Manufacturing in a state-of-the-arp,LEED Gold Certified plant in Tamil Nadu</p>
+        </div>
+        <div class="p-2 flex-fill" id="give"><img
+            src="https://images.contentstack.io/v3/assets/blt7fba682eccffca60/bltbf064ddcde0fdaed/611deebb1da1da13cddc0921/our-milestones-eyes-closed-smile.png"
+            alt="">
+          <p><b class="mekit">100% Satisfaction</b>
+          </p>
+          <p>We offer our customers with money-back guarantee & seamless product experience</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  
+  
+  
+    <div class="container">
+      <div class="card-group">
+        <div class="card">
+          <img src="https://media.amway.in/sys-master/images/h81/ha2/9097555214366/EIA.w375.h375.308449ID_1.jpg"
+            class="card-img-top" alt="..." />
+          <div class="card-body">
+  
+            <p class="card-text1">
+              NUTRILITE®
+            <p> <b>All Plant Protein Powder
+              </b></p>
+            1 kg
+            ₹ 49,998.96
+            (incl. of all taxes)
+            </p>
+            <div class="d-grid gap-2 col-6 mx-auto">
+  
+              <button class="btn btn-primary" type="button">select size</button>
+  
+            </div>
+  
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://media.amway.in/sys-master/images/h69/h12/9099939872798/EIA.w375.h375.308493ID_1.jpg"
+            class="card-img-top" alt="..." />
+          <div class="card-body">
+  
+            <p class="card-text1">
+              NUTRILITE®
+            <p><b>Daily</b></p>
+            <p>₹ 2,245.54
+  
+  
+            </p>
+            <div class="d-grid gap-2 col-6 mx-auto">
+  
+              <button class="btn btn-primary" type="button">ADD TO CART</button>
+  
+            </div>
+  
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://media.amway.in/sys-master/images/h0f/h3d/9098519838750/EIA.w375.h375.308450IDB_1.jpg"
+            class="card-img-top" alt="..." />
+          <div class="card-body">
+  
+            <p class="card-text1">
+              Glister™
+            <p><b>Multi Action Toothpaste</b></p>
+            ₹ 254.88
+            (incl. of all taxes)
+            </p>
+  
+            <div class="d-grid gap-2 col-6 mx-auto">
+  
+              <button class="btn btn-primary" type="button">ADD TO CART</button>
+  
+            </div>
+  
+  
+  
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://media.amway.in/sys-master/images/hac/h83/9100615090206/EIA.w375.h375.308455ID_1.jpg"
+            class="card-img-top" alt="..." />
+          <div class="card-body">
+  
+            <p class="card-text1">
+              NUTRILITE®
+            <p><b> Salmon Omega-3 Softgels</b></p>
+            ₹ 1,463.20
+            (incl. of all taxes)
+            </p>
+            <div class="d-grid gap-2 col-6 mx-auto">
+  
+              <button class="btn btn-primary" type="button">ADD TO CART</button>
+  
+            </div>
+  
+          </div>
+        </div>
+      </div>
+    </div>

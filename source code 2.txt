@@ -1,0 +1,154 @@
+<div class="container">
+      <div class="whatpeple">
+        <h1>what people have to say about us</h1>
+      </div>
+      <div class="coninre">
+        <div class="container">
+          <div class="blogpost">
+            <div class="gethisimg">
+              <img
+                src="https://images.contentstack.io/v3/assets/blt7fba682eccffca60/blt81a9afe9528830cb/6253c9e9856d7a0143817489/Rashmita_Mohanty_-_Size_-_640_X_400_PX.jpg"
+                alt="">
+            </div>
+            <div class="blogpostinfo">
+  
+  
+              <p class="blogposttext">
+                <b> Amway helped me realize my true potential for success</b>
+                Rashmita Mohanty
+                Amway Direct Selling Partner
+              </p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="container">
+          <div class="blogpost">
+            <div class="gethisimg">
+              <img
+                src="https://images.contentstack.io/v3/assets/blt7fba682eccffca60/blt107bae6029352ae2/6253c659180ea87eed67757b/Mr._Samarjit_&_Mrs._Minati_Panda_-_Size_-_640_X_400_PX.jpg"
+                alt="">
+            </div>
+            <div class="blogpostinfo">
+  
+  
+              <p class="blogposttext">
+                <b> Amway has given us the opportunity to create healthy living</b>
+                Samarjit Chowdhury & Minati Panda
+                Amway Direct Selling Partner
+              </p>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  
+  
+  
+  
+  
+  
+  
+  
+    <div class="container">
+      <div class="imagenew">
+        <img
+          src="https://images.contentstack.io/v3/assets/blt7fba682eccffca60/blt80e5599946859919/6253b4a45b71147a38d9f4f4/AmwayBusiness_Desktop.jpg?auto=webp&width=1920"
+          alt="">
+        <div class="bottom-left">
+          Power. Passion. Purpose.</div>
+        <div class="bottom-leftup">Unleash your entrepreneurial drive with Amway</div>
+  
+        <div class="somany">
+          <button type="button" class="btn 
+          btn-secondary">start your business</button>
+        </div>
+      </div>
+    </div>
+  
+  
+    <div class="container">
+      <div class="footer-dark">
+        <footer>
+  
+          <div class="row">
+            <div class="col-sm-6 col-md-3 item">
+              <h5>POLICIES</h5>
+              <ul>
+                <li><a href="#"> Careers at Amway
+                  </a></li>
+                <li><a href="#">Terms Of Use
+                  </a></li>
+                <li><a href="#">Website Privacy Policy
+                  </a></li>
+                <li><a href="#"> Direct Selling Partner & PC Privacy
+  
+                  </a></li>
+                <li><a href="#"> Product Return Policy
+  
+  
+                  </a></li>
+                <li><a href="#"> Warning Against Unauthorized Sellers
+  
+  
+                  </a></li>
+                <li><a href="#"> Legal Warning
+  
+                  </a></li>
+  
+  
+  
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3 item">
+              <h5>USEFUL LINKS</h5>
+              <ul>
+                <li><a href="#">Terms Of Use</a></li>
+                <li><a href="#">Website Privacy Policy</a></li>
+                <li><a href="#">Direct Selling Partner & PC Privacy</a></li>
+                <li><a href="#">Rules Of Conduct
+                  </a></li>
+                <li><a href="#">Product Return Policy</a></li>
+                <li><a href="#">Warning Against Unauthorized Sellers
+                  </a></li>
+                <li><a href="#">Legal Warning
+                  </a></li>
+  
+  
+  
+  
+              </ul>
+            </div>
+            <div class="col-md-6 item text">
+              <h5>CONNECT WITH US</h5>
+  
+  
+              <div class="col item social"><img
+                  src="https://images.contentstack.io/v3/assets/blt7fba682eccffca60/bltda4c6db78c7a0b99/6188cfe9c9714c667b4ff353/Instagram.png?width=40&auto=webp"><i
+                  class="icon ion-social-facebook"></i></=><img
+                  src="https://images.contentstack.io/v3/assets/blt7fba682eccffca60/blt04101f3480ca8459/6188cfea7a22505a5c254b6c/Telegram.png?width=40&auto=webp"><i
+                  class="icon ion-social-facebook"></i></=><img
+                  src="https://images.contentstack.io/v3/assets/blt7fba682eccffca60/blt6ea8d4875a6dcba5/6188cfe9d6ef6a585adf301b/Facebook.png?width=40&auto=webp"><i
+                  class="icon ion-social-twitter"></i></=><img
+                  src="https://images.contentstack.io/v3/assets/blt7fba682eccffca60/blt088940aff802c498/6188cfe94f03d16675739150/Twitter.png?width=40&auto=webp"><i
+                  class="icon ion-social-snapchat"></i></=><img
+                  src="https://images.contentstack.io/v3/assets/blt7fba682eccffca60/blt125489fe23a842d2/6188cfe971dc1b799a74085e/YouTube.png?width=40&auto=webp"><i
+                  class="icon ion-social-instagram"></i></div>
+  
+              <p class="copyright">Company Name © 2018</p>
+            </div>
+        </footer>
+      </div>
+    </div>
+  
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"></script>
+  </body>
+  
+  </html>
+  -->
